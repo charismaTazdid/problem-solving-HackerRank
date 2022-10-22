@@ -1,3 +1,5 @@
+//problem limk: https://www.hackerrank.com/challenges/compare-the-triplets/problem
+
 
 function compareTriplets(a, b) {
     let aliceScore = 0;
