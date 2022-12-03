@@ -1,6 +1,6 @@
 //implement a function with callback that behaves like a promise
 const user = "Vladimir Putin";
-const userLeft = false;
+const userLeft = true;
 const userWatchMemes = false;
 
 const userObserver = (goodBoyCallback, badBoyCallback) => {
@@ -19,9 +19,11 @@ const userObserver = (goodBoyCallback, badBoyCallback) => {
     }
 }
 
-const response = (para) => console.log("Success...", para)
-const err = (para) => console.log("fail...", para)
-userObserver(response, err)
+const response = (para) => console.log("Success...", para); //function to pass with userObserver
+const err = (para) => console.log("fail...", para); //function to pass with userObserver
+
+//calling
+userObserver(response, err);
 
 userObserver((res) => {
     console.log("Success...", res)
