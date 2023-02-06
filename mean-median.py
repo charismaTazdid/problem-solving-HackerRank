@@ -1,4 +1,4 @@
-# Problem: https://www.hackerrank.com/challenges/s10-basic-statistics/problem?isFullScreen=true
+# Problem Statement: https://www.hackerrank.com/challenges/s10-basic-statistics/problem?isFullScreen=true
 
 import numpy as np
 from scipy import stats
