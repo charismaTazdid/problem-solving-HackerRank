@@ -1,4 +1,4 @@
-
+# https://www.hackerrank.com/challenges/s10-binomial-distribution-1/problem?isFullScreen=true
 
 import math
 x, y = map(float, input().split())
