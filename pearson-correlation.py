@@ -9,7 +9,7 @@ Y = list(map(float,input().split()))
 ux = m.mean(X)
 sx = m.pstdev(X)
 
-uy = m.mean(Y)
+uy = m.mean(Y) 
 sy = m.pstdev(Y)
 
 num = 0
