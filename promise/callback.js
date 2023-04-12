@@ -1,4 +1,4 @@
-//implement a function with callback that behaves like a promise
+// implement a function with callback that behaves like a promise
 const user = "Vladimir Putin";
 const userLeft = true;
 const userWatchMemes = false;

@@ -6,7 +6,7 @@ function breakingRecords(scores) {
     let worst = 0;
     let bestScore = scores[0];
     let worstScore = scores[0];
-    const lengthOfData = scores.length;
+    // const lengthOfData = scores.length;
     for(let i = 1; i < scores.length; i++) {
         if (scores[i] > bestScore) {
             bestScore = scores[i];
