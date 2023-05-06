@@ -7,12 +7,12 @@ def nonDivisibleSubset(k, s):
         remainder = i % k
         count[remainder] += 1
 
-    ans = min(count[0], 1)          # Handling case 1
+    ans = min(count[0], 1)
 
-    if k % 2 == 0:                    # Handling case even exception case
+    if k % 2 == 0:
         ans += min(count[k//2], 1)
 
-    for i in range(1, k//2 + 1):    # Check for the pairs and take appropriate count
+    for i in range(1, k//2 + 1):
         if i != k - i:           # Avoid over-counting when k is even
             ans += max(count[i], count[k-i])
     return ans
