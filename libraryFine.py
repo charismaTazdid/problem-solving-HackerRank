@@ -1,6 +1,5 @@
 # Problem: https://www.hackerrank.com/challenges/library-fine/problem
 
-
 def libraryFine(d1, m1, y1, d2, m2, y2):
     if y1 < y2:
         return 0
