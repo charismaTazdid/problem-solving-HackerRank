@@ -1,7 +1,5 @@
 // Problem: https://www.hackerrank.com/challenges/happy-ladybugs/
 
-
-
 function happyLadybugs(b) {
     const ladybugs = b.split("");
     const ladybugsSet = [...new Set(ladybugs)];
