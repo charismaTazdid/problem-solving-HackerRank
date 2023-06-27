@@ -1,4 +1,4 @@
-// Problem: 
+// Problem: https://www.hackerrank.com/challenges/weighted-uniform-string
 
 function weightedUniformStrings(s, queries) {
     let weighU = [];
