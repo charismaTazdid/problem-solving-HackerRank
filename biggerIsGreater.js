@@ -1,7 +1,5 @@
 // Problem: https://www.hackerrank.com/challenges/bigger-is-greater
 
-
-
 function biggerIsGreater(w) {
     // Write your code here    
     w = w.split('')
