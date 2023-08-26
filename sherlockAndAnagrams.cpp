@@ -1,6 +1,5 @@
 // Problem: https://www.hackerrank.com/challenges/sherlock-and-anagrams
 
-
 int sherlockAndAnagrams(string s) {
     int count = 0;
     unordered_map<string, int>m;
@@ -18,4 +17,3 @@ int sherlockAndAnagrams(string s) {
     }
     return count;
 }
-
