@@ -25,7 +25,6 @@ export const getFormattedDateTime = (dateTime) => {
         minute: "2-digit",
         timeZone: "UTC",
     });
-
     return {
         day,
         month,
